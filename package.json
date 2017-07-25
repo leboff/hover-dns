@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.0",
+    "colors": "^1.1.2",
     "dotenv": "^4.0.0",
     "express": "^4.15.3",
     "hover-api": "^1.0.0"

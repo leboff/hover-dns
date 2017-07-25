@@ -9,6 +9,7 @@ const update = function(){
 
 app.listen((process.env.PORT || 3000), function () {  
   setInterval(function(){
+    console.log('Sending DNS update request...')
     update();
   }, 4*60*60*1000); //run every four hours;
   
