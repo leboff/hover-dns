@@ -1,0 +1,17 @@
+{
+  "name": "leboff.co-home",
+  "version": "1.0.0",
+  "description": "Proxy for Accessing Home Devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryan Leboff",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "hover-api": "^1.0.0"
+  }
+}
