@@ -1,5 +1,5 @@
 # Hover DNS Update #
-This application uses the 'unofficial hover api' (hover-api npm package) to update a DNS record on a set interval from another domain value;
+This application uses the 'unofficial hover api' ([hover-api](https://www.npmjs.com/package/hover-api) npm package) to update a DNS record on a set interval from another domain value;
 
 ## Run ##  
 ```
