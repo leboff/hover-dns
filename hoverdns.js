@@ -7,7 +7,7 @@ module.exports = function(username, password){
     
     let updateDns = function(ddns, domain, subdomain){
         let resolvedIp;
-        dns.resolveAsync(ddns)
+        return dns.resolveAsync(ddns)
             .then(function(resolved){
                 console.log('Resolved %s to %s', ddns, resolved[0]);
                 resolvedIp = resolved[0];
