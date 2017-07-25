@@ -15,6 +15,8 @@ HOVER_PASS | Hover.com password
 HOVER_DOMAIN | The domain to update the DNS under
 HOVER_SUBDOMAIN | The DNS A record entry to update
 DDNS_HOST | The hostname to grab an updated ip from 
+UPDATE_INTERVAL | The interval in milliseconds to update Hover
+PORT | The port the server should run on 
 
 ## .env file ##
 You can use a .env file in your project root to configure environment variables without setting them. See the [dotenv](https://www.npmjs.com/package/dotenv) package for more info.
