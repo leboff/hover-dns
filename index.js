@@ -11,7 +11,7 @@ app.listen((process.env.PORT || 3000), function () {
   setInterval(function(){
     console.log('Sending DNS update request...')
     update();
-  }, 4*60*60*1000); //run every four hours;
+  }, (process.env.UPDATE_INTERVAL || 4*60*60*1000)); //default every four hours;
   
   app.get('/', function(req, res){
     update()
