@@ -1,7 +1,7 @@
 {
-  "name": "leboff.co-home",
+  "name": "hover-dns",
   "version": "1.0.0",
-  "description": "Proxy for Accessing Home Devices",
+  "description": "Application to update Hover.com dns record from DDNS url",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
